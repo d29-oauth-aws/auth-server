@@ -7,14 +7,15 @@
     "start": "node index.js",
     "watch": "nodemon index.js",
     "test-watch": "jest --watchAll",
-    "test": "jest"
+    "test": "jest",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
   },
   "jest": {
     "testEnvironment": "node"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Jon Gentry, Alex Whitey, Billy Bunn, Aaron Ferris",
+  "license": "MIT",
   "dependencies": {
     "bcrypt": "^3.0.2",
     "cors": "^2.8.4",
